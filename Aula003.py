@@ -35,7 +35,7 @@ ORGEM DE PRECENDÊNCIA
 3. - *, /, //, % "sera calculado oque vier primeiro"
 4. - "+" e "-" "sera calculado oque vier primeiro"
 
-formatação {:.3f}
+GFORMATAÇÃO {:.3f}
 para não pular linha and=' '
 para quebrar linha \n 
 """
