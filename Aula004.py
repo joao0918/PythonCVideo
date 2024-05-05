@@ -96,7 +96,7 @@ import random
 listaNome = []
 for i in range(1,5):
     nome = str(input('Qual nome do aluno: '))
-    listaNome.append(nome)
+    listaNome.append(nome) #adciona um elemento ao final da lista "append"
 
 random.shuffle(listaNome) # ele embaralha a lista de forma aleatoria
 
@@ -104,4 +104,14 @@ print(listaNome)
 
 
 # DESAFIO 5
-    
+"""IMPORT BIBLIO NEW
+
+pip instal name_biblioteca
+"""
+import pygame
+
+pygame.init()
+
+pygame.mixer.music.load('nome_do_arquivo.mp3') # deve estar dentro da mesma pasta para rodar a musica
+pygame.mixer.music.play()
+pygame.event.wait()
